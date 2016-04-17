@@ -1,0 +1,14 @@
+#logo {
+    position: absolute;
+    size: 100%;
+    align-items: center;
+    
+}
+
+#bgvid {
+    position: absolute
+    height: auto;
+    width: 100%;
+    opacity: 0.1;
+}
+
