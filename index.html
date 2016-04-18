@@ -41,10 +41,9 @@
 				<div id="introcontainer">
 					 <section id="intro"; class="wrapper style1 fullscreen fade-up">	
 						<img id="logo" src="images/ECHO_LOGO.png" style="width: 25%; height: 25%; padding-top: 15%; padding-left: 5%">
-
-						<video autoplay loop muted poster="" id="bgvid">
+						<!--<video autoplay loop muted poster="" id="bgvid">
                         	<source src="images/cap.mov" type="video/mp4">
-                    	</video>
+                    	</video>-->
                             <p>Understanding sound through data visualization and immersive environments</p>
                             <ul class="actions">
                                 <li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -59,8 +58,20 @@
 							<div class="content">
 								<div class="inner">
 									<h2>What is Echo?</h2>
-									<p>Echo is comprised of a website and mobile-application that implements a unique approach to visualizing information. We feel that Virtual Reality is the ultimate medium to immerse someone inside of an audio environment, and it will promote the highest level of understanding in our users. The combination of the website and mobile-application will help teach students and give them the resources they need to learn about audio environments. More specifically, it focuses on sound wave interaction for audio engineering. Our mobile-application gives students and teachers alike the ability to visualize sound waves in an audio environment through the use of our 3D Virtual Reality mobile-application that has been built in Unity. It presents our users the option to be able to select a room they would like to visualize sound within as well as the ability to alter the frequency and amplitude of the sound waves. It also allows users to be able to choose how sound should be displayed within the audio sound environment, whether that be sound waves or dots. Our goal is to lower the barrier of entry into the audio engineering and sound design industry for all of our users. 
-									Our website complements our mobile-application by supplying tutorials on how to use the mobile-application, how to create rooms and then visualize them, as well as alternate ways on how to visualize sound in a 2-dimensional audio sound environment. </p>
+									<p>Echo is comprised of a website and mobile-application that implements a unique approach to visualizing 
+										information. We feel that Virtual Reality is the ultimate medium to immerse someone inside of an audio 
+										environment, and it will promote the highest level of understanding in our users. The combination of the 
+										website and mobile-application will help teach students and give them the resources they need to learn about 
+										audio environments. More specifically, it focuses on sound wave interaction for audio engineering. Our 
+										mobile-application gives students and teachers alike the ability to visualize sound waves in an audio 
+										environment through the use of our 3D Virtual Reality mobile-application that has been built in Unity. 
+										It presents our users the option to be able to select a room they would like to visualize sound within as 
+										well as the ability to alter the frequency and amplitude of the sound waves. It also allows users to be able 
+										to choose how sound should be displayed within the audio sound environment, whether that be sound waves or dots. 
+										Our goal is to lower the barrier of entry into the audio engineering and sound design industry for all of our users. 
+									Our website complements our mobile-application by supplying tutorials on how to use the mobile-application, how to create 
+									rooms and then visualize them, as well as alternate ways on how to visualize sound in a 2-dimensional audio sound environment.
+									</p>
 									<ul class="actions">
 										<li><a href="#" class="button">Learn more</a></li>
 									</ul>
@@ -70,16 +81,56 @@
 					</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Our Model</h2>
+							<img src="images/room_sketches/env.png" style="width:40%">
+							<p> Our model is based on a representation of air particles and their interaction with one another within an audio environment. When sound is 
+								introduced into the environment the vibration of these particles represents a wave moving through a medium. Frequency is shown by the rate 
+								at which the particles move, amplitude is shown by their velocity. In order to show the many frequencies that exist in a piece of music, 
+								the user can filter by a frequency or frequency range to view the entire audible spectrum in our visualization. 
+							</p>
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style2 spotlights">
+						<div class="inner">
+							<h2>Understainding Sound Environments</h2>
+						</div>
 						
-						<section>
+						<ul id="slider">
+							<li>
+								<img id="acc-image" src="images/room_sketches/aud.png" alt="" style="border-left:15px solid black" />
+								<div>
+									<strong>Auditorium</strong>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor lacus sollicitudin ligula sagittis.</p>
+								</div>
+							</li>
+							<li>
+								<img id="acc-image" src="images/room_sketches/kitch.png" alt="" style="border-left:15px solid black"/>
+								<div>
+									<strong>Kitchen</strong>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in condimentum sem.</p>
+								</div>
+							</li>
+							<li>
+								<img id="acc-image" src="images/room_sketches/aud.png" alt="" style="border-left:15px solid black" />
+								<div>
+									<strong>Bar</strong>
+									<p>Duis viverra velit orci. Sed vestibulum mi nec est imperdiet sed ullamcorper augue molestie.</p>
+								</div>
+							</li>
+							<li>
+								<img id="acc-image" src="images/room_sketches/kitch.png" alt="" style="border-left:15px solid black"/>
+								<div>
+									<strong>Club</strong>
+									<p>Phasellus sed lectus nisl, eget cursus eros. Suspendisse posuere orci eu lorem luctus.</p>
+								</div>
+							</li>
+						</ul>
+
+						<!--<section>
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
@@ -129,7 +180,7 @@
 									</ul>
 								</div>
 							</div>
-						</section>
+						</section>-->
 					</section>
 
 
@@ -168,6 +219,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/jquery.zaccordion.min.js"></script>
+			<script src="assets/js/accordion.js"></script>
 	</body>
 </html>
