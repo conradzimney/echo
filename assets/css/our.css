@@ -1,8 +1,14 @@
 
+head, body, footer {
+    font-family: 'Raleway', sans-serif ;
+}
+
 /*logo*/
 #logo {
     position: relative;
     size: 100%;
+    width: 10 em; 
+ 
     
     
 }
@@ -26,22 +32,60 @@
     
 }
 
+/*Intro custom styling*/
+
+#introelements {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#intro.wrapper.style1 {
+    background-color: lightslategray;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+} 
+
+#two {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
+#three {
+    padding-bottom: 150px
+}
+    
+#modelimage {
+    padding-bottom: 25px;
+}
+
+/*Sidebar Stylings*/
+
+.inner {
+    color: lightsteelblue;
+}
+
 /*Jquery accordion*/
 
-#slider {background-color:rgba(0,0,0,0.5);bottom:0;height:100px;left:0;position:absolute;width:150%;z-index:10;}
+#slider {bottom:0;height:100px;left:0;position:absolute;width:150%;z-index:10;}
 
 #slider .slider-closed {width:100px;}
 
-#slider strong {color:#000000;display:block;margin-bottom:5px;padding:0px 10px 0; text-shadow:none;}
+#slider strong {color:#ffffff;display:block;margin-bottom:5px;padding:0px 10px 0; text-shadow:none;}
 
-#slider p {color:#fff;display:block;font-size:14px;padding:0 10px;text-shadow:none;}
+#slider p {color:#ffffff;display:block;font-size:14px;padding:0 10px;text-shadow:none;}
 
-#slider .slider-open strong {color:#fff;font-size:22px;}
+#slider .slider-open strong {color:#ffffff;font-size:22px;}
 
 #slider .slider-closed strong {font-size:18px;margin-bottom:5px;}
 
 #slider .slider-closed p {display:none;}
 
-.wrapper.style1 {
+#slider {
     
 }
