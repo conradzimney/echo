@@ -70,26 +70,6 @@ head, body, footer {
     color: lightsteelblue;
 }
 
-/*Jquery accordion*/
-
-#slider {bottom:0;height:100px;left:0;position:absolute;width:150%;z-index:10;}
-
-#slider .slider-closed {width:100px;}
-
-#slider strong {color:#ffffff;display:block;margin-bottom:5px;padding:0px 10px 0; text-shadow:none;}
-
-#slider p {color:#ffffff;display:block;font-size:14px;padding:0 10px;text-shadow:none;}
-
-#slider .slider-open strong {color:#ffffff;font-size:22px;}
-
-#slider .slider-closed strong {font-size:18px;margin-bottom:5px;}
-
-#slider .slider-closed p {display:none;}
-
-#slider {
-    
-}
-
 #footer > .inner .menu {
     color: lightsteelblue;
 }

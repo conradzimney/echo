@@ -43,7 +43,7 @@
   box-sizing: border-box;
   color: #fff;
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
+  font-family: 'Raleway', sans-serif;
   transition: all 200ms ease;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .accordion ul li div a h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-overflow: clip;
   font-size: 24px;
   text-transform: uppercase;
