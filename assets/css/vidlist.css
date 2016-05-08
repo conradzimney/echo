@@ -135,13 +135,14 @@
 
 .wizard > .content
 {
-    background: #eee;
+    /*background: #eee;*/
     display: block;
-    margin: 0.5em;
-    min-height: 26em;
+    margin: 1em;
+    min-height: 22em;
     overflow: hidden;
     position: relative;
     width: auto;
+    height: auto;
 
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

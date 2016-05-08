@@ -1067,7 +1067,7 @@ function renderPagination(wizard, options, state)
 
         if (options.enableFinishButton)
         {
-            buttons += buttonTemplate.format("finish", options.labels.finish);
+            // buttons += buttonTemplate.format("finish", options.labels.finish);
         }
 
         if (options.enableCancelButton)
@@ -1744,7 +1744,7 @@ var defaults = $.fn.steps.defaults = {
      * @default false
      * @for defaults
      **/
-    enableAllSteps: false,
+    enableAllSteps: true,
 
     /**
      * Enables keyboard navigation if `true` (arrow left and arrow right).
