@@ -3,18 +3,19 @@ head, body, footer {
     font-family: 'Raleway', sans-serif ;
 }
 
+
+
 /*logo*/
 #logo {
     position: relative;
     size: 100%;
     width: 10 em; 
- 
-    
-    
 }
 
-/*background vid*/
 
+
+
+/*background vid*/
 #bgvid {
     position: absolute;
     height: auto;
@@ -23,17 +24,18 @@ head, body, footer {
 }
 
 
-/*Slider Images*/
 
+
+/*Slider Images*/
 #acc-image {
     width: 100%;
     height: 300px;
-   
-    
 }
 
-/*Intro custom styling*/
 
+
+
+/*Intro custom styling*/
 #introelements {
     margin-left: auto;
     margin-right: auto;
@@ -44,6 +46,10 @@ head, body, footer {
     background-color: lightslategray;
 }
 
+
+
+
+/*Content Styling*/
 .content {
     margin-left: auto;
     margin-right: auto;
@@ -57,15 +63,21 @@ head, body, footer {
 } 
 
 #three {
-    padding-bottom: 150px
+    padding-bottom: 100px;
 }
     
 #modelimage {
     padding-bottom: 25px;
 }
 
-/*Sidebar Stylings*/
+#download-button {
+    width: 30%;
+}
 
+
+
+
+/*Sidebar Stylings*/
 .inner {
     color: lightsteelblue;
 }
