@@ -76,15 +76,15 @@
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background-image: url("images/aud.png"); }
+.accordion ul li:nth-child(1) { background-image: url("images/hd-auditorium.jpg"); }
 
-.accordion ul li:nth-child(2) { background-image: url("images/kitch.png"); }
+.accordion ul li:nth-child(2) { background-image: url("images/hd-room.jpg"); }
 
-.accordion ul li:nth-child(3) { background-image: url("images/aud.png"); }
+.accordion ul li:nth-child(3) { background-image: url("images/hd-club.jpg"); }
 
-.accordion ul li:nth-child(4) { background-image: url("images/kitch.png"); }
+.accordion ul li:nth-child(4) { background-image: url("images/hd-arena.jpg"); }
 
-.accordion ul li:nth-child(5) { background-image: url("images/aud.png"); }
+/*.accordion ul li:nth-child(5) { background-image: url("images/hd-arena.jpg"); }*/
 
 /*.accordion ul li:nth-child(6) { background-image: url("https://unsplash.it/650/350?image=670"); }*/
 
