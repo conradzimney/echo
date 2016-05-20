@@ -67,6 +67,8 @@ head, body, footer {
 }
     
 #modelimage {
+    display: block;
+    margin: auto auto;
     padding-bottom: 25px;
 }
 
