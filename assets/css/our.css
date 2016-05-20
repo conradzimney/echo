@@ -76,6 +76,20 @@ head, body, footer {
     width: 30%;
 }
 
+#wrapper-download {
+    overflow: hidden;
+}
+
+#element-one {
+    width: 200px;
+    float:left;
+}
+
+#element-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
 
 
 
