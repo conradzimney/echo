@@ -382,3 +382,30 @@
 {
     display: list-item;
 }
+
+
+
+/************Media Query For Mobile***************/
+
+@media only screen and (max-width: 400px) {
+    
+    .wizard.vertical > .steps {
+        width: 100%;
+    }
+    
+    #mobile-video {
+        width: 100%;
+    }
+    
+    #video {
+        display: none;       
+    }
+}
+
+/*every but mobile*/
+@media only screen and (min-width: 400px) {
+
+    #mobile-video {
+        display: none;
+    }
+}

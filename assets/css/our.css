@@ -101,3 +101,28 @@ head, body, footer {
 #footer > .inner .menu {
     color: lightsteelblue;
 }
+
+
+
+
+/************Media Query For Mobile***************/
+
+@media only screen and (max-width: 400px) {
+    
+    /*intro section*/
+    #introelements {
+        max-width: 375px;
+    }
+    #logo {
+        max-width: 375px;
+    }
+    
+    
+    /*download section*/
+    #element-one {
+        width: 170px;
+    }
+    #element-two {
+        position: static;
+    }
+}
