@@ -393,6 +393,14 @@
         width: 100%;
     }
     
+    .wizard.vertical > .content {
+        float: initial;
+    }
+    
+    .wizard > .content > .body {
+        position: relative;
+    }
+    
     #mobile-video {
         width: 100%;
     }
