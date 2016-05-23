@@ -130,7 +130,7 @@ head, body, footer {
   background:none;
   position:fixed;
   top:0px;
-  right:20px;
+  right:-15px;
   padding:0px 15px 0px 15px;
   color:#fff;
   border:0;
