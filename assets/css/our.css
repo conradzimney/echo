@@ -94,6 +94,10 @@ head, body, footer {
     left: 10%;
 }
 
+#room-descr {
+    padding-left: 0px;
+}
+
 
 
 /*Sidebar Stylings*/
@@ -111,7 +115,7 @@ head, body, footer {
   background:none;
   position:fixed;
   top:0;
-  right:0;
+  right:0px;
   line-height:45px;
   padding:0px 15px 0px 15px;
   color:#fff;
@@ -126,7 +130,7 @@ head, body, footer {
   background:none;
   position:fixed;
   top:0px;
-  right:0;
+  right:20px;
   padding:0px 15px 0px 15px;
   color:#fff;
   border:0;
@@ -137,7 +141,7 @@ head, body, footer {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:fixed; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
 .menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
