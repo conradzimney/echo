@@ -8,7 +8,10 @@ head, body, footer {
 /*logo*/
 #logo {
     position: relative;
-    size: 100%;
+    /*size: 100%;*/
+    margin: 0 auto;
+    padding-left: 50px;
+    max-width: 600px;
     width: 10 em; 
 }
 
@@ -162,6 +165,7 @@ head, body, footer {
     }
     #logo {
         max-width: 375px;
+        padding-left: 35px;
     }
     
     
